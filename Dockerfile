@@ -1,12 +1,7 @@
-FROM node:lts-alpine
-
-WORKDIR /usr/src/app
-
-RUN npm i
-
-COPY . .
-
-EXPOSE 3000
-
-RUN npm run build
-
+FROM ubuntu:latest
+RUN apt-get update && \
+    apt-get install -y <your-package> && \
+    
+WORKDIR /app
+COPY . /app
+CMD [""]
