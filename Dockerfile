@@ -4,4 +4,3 @@ RUN apt-get update && \
     
 WORKDIR /app
 COPY . /app
-CMD [""]
