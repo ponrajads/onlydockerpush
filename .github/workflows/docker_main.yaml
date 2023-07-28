@@ -15,5 +15,5 @@ jobs:
       run: |
         docker build -t app .
         docker login -u ponrajbpr -p dckr_pat_TX7WvF5_U8P2yz7NDLasHZj5g2w
-        docker tag app 
+        docker tag app ponrajbpr/test
         docker push ponrajbpr/test
