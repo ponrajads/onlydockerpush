@@ -1,4 +1,4 @@
-FROM ubuntu:2.1
+FROM ubuntu:latest
 RUN apt-get update
     
 WORKDIR /app
